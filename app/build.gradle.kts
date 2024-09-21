@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.recyclerewards"
+    namespace = "kotlin.kug.recyclerewards"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.recyclerewards"
+        applicationId = "kotlin.kug.recyclerewards"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

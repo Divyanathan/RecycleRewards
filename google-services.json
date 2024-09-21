@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "464746596694",
+    "project_id": "recyclerewards-50caf",
+    "storage_bucket": "recyclerewards-50caf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464746596694:android:6c9eeae09df5b9f9e42ef7",
+        "android_client_info": {
+          "package_name": "kotlin.kug.recyclerewards"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgqqu-sz4Cjn3yWTpe8KxrHC1beYtwwd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

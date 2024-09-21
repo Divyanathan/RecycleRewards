@@ -2,10 +2,10 @@ package com.example.recyclerewards.repoimpl
 
 import com.example.recyclerewards.datamodel.Category
 import com.example.recyclerewards.datamodel.SubCategory
-import com.example.recyclerewards.repos.GategoryRepo
+import com.example.recyclerewards.repos.CategoryRepo
 
-class GetogoryRepoImpl: GategoryRepo {
-    override fun getGetegory(): List<Category> {
+class CategoryRepoImpl: CategoryRepo {
+    override fun getCategory(): List<Category> {
         return getSampleGetegory()
     }
 

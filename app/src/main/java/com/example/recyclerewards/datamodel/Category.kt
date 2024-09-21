@@ -8,3 +8,11 @@ data class SubCategory(
     val image: String,
     val isDegradble: Boolean
 )
+
+data class SubCategoryContent(
+    val id: String,
+    val content: String,
+    val image: String,
+    val quantity: String,
+    val cost: Long
+)

@@ -30,6 +30,7 @@ class MainActivity : ComponentActivity() {
             startActivity(Intent(this@MainActivity,CategoryActivity::class.java))
         }else{
             Toast.makeText(this, "Login Failed", Toast.LENGTH_SHORT).show()
+            startActivity(Intent(this@MainActivity,CategoryActivity::class.java))
         }
     }
 }

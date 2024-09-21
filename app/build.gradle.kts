@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "kotlin.kug.recyclerewards"
+    namespace = "com.example.recyclerewards"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "kotlin.kug.recyclerewards"
+        applicationId = "com.example.recyclerewards"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -59,6 +59,9 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.room.common)
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.litert.support.api)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

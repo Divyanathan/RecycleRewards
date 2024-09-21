@@ -24,7 +24,8 @@ import androidx.compose.ui.unit.dp
 
 @Preview
 @Composable
-fun UserLoginScreen() {
+fun UserLoginScreen(
+    onLoginClick: (String, String) -> Unit) {
     var email by remember { mutableStateOf("") }
     var password by remember { mutableStateOf("") }
 
@@ -52,7 +53,7 @@ fun UserLoginScreen() {
             visualTransformation = PasswordVisualTransformation()
         )
         Spacer(modifier = Modifier.height(16.dp))
-        Button(onClick = { /* Handle login logic */ }) {
+        Button(onClick = { onLoginClick(email, password) }) {
             Text("Login")
         }
     }
